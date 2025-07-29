@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toshiki Ishida - Researcher</title>
+    <meta name="description" content="機械学習・データサイエンス・人工知能の研究者 石田俊樹の公式ウェブサイト">
+    <meta name="keywords" content="機械学習, データサイエンス, 人工知能, 研究者, 石田俊樹">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Toshiki Ishida - Researcher">
+    <meta property="og:description" content="機械学習・データサイエンス・人工知能の研究者">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">
+                    <a href="#home">TOSHIKI ISHIDA</a>
+                </h1>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#research" class="nav-link">Research</a></li>
+                        <li><a href="#publications" class="nav-link">Publications</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-image">
+            <img src="/placeholder.svg?height=800&width=1200&text=Research+Laboratory" alt="研究室の風景">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h2 class="hero-title">Research & Innovation</h2>
+                    <p class="hero-description">
+                        機械学習・データサイエンス・人工知能の研究を通じて、<br>
+                        社会課題の解決に取り組んでいます
+                    </p>
+                    <button class="btn btn-primary hero-btn">研究について詳しく見る</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/placeholder.svg?height=400&width=400&text=Profile+Photo" alt="石田俊樹のプロフィール写真" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <h3 class="about-name">石田 俊樹 (Toshiki Ishida)</h3>
+                    <p class="about-description">
+                        機械学習とデータサイエンスを専門とする研究者です。特に深層学習を用いた画像認識、
+                        自然言語処理、そして大規模データ解析の分野で研究を行っています。
+                    </p>
+                    <p class="about-description">
+                        これまでに多数の国際会議での発表や学術論文の発表を行い、
+                        産学連携プロジェクトにも積極的に参加しています。
+                    </p>
+                    <div class="tags">
+                        <span class="tag">機械学習</span>
+                        <span class="tag">深層学習</span>
+                        <span class="tag">データサイエンス</span>
+                        <span class="tag">画像認識</span>
+                        <span class="tag">自然言語処理</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section">
+        <div class="container">
+            <h2 class="section-title">News & Updates</h2>
+            <div class="news-list" id="newsList">
+                <!-- News items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="research-section" id="research">
+        <div class="container">
+            <h2 class="section-title">Research Highlights</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="card-header">
+                        <h3 class="card-title">機械学習による画像認識</h3>
+                        <p class="card-description">深層学習を用いた高精度な画像認識システムの開発</p>
+                    </div>
+                    <div class="card-tags">
+                        <span class="tag-outline">AI</span>
+                        <span class="tag-outline">Computer Vision</span>
+                        <span class="tag-outline">Deep Learning</span>
+                    </div>
+                </div>
+                
+                <div class="research-card">
+                    <div class="card-header">
+                        <h3 class="card-title">自然言語処理の応用</h3>
+                        <p class="card-description">大規模言語モデルを活用したテキスト解析手法の研究</p>
+                    </div>
+                    <div class="card-tags">
+                        <span class="tag-outline">NLP</span>
+                        <span class="tag-outline">LLM</span>
+                        <span class="tag-outline">Text Analysis</span>
+                    </div>
+                </div>
+                
+                <div class="research-card">
+                    <div class="card-header">
+                        <h3 class="card-title">データサイエンス手法</h3>
+                        <p class="card-description">ビッグデータ解析のための新しい統計的手法の開発</p>
+                    </div>
+                    <div class="card-tags">
+                        <span class="tag-outline">Statistics</span>
+                        <span class="tag-outline">Big Data</span>
+                        <span class="tag-outline">Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="publications-section" id="publications">
+        <div class="container">
+            <h2 class="section-title">Recent Publications</h2>
+            <div class="publications-list">
+                <div class="publication-card">
+                    <div class="publication-icon">
+                        <i data-lucide="book-open"></i>
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">
+                            "Advanced Deep Learning Techniques for Image Recognition in Complex Environments"
+                        </h3>
+                        <p class="publication-meta">T. Ishida, et al. Journal of Advanced Research, 2025</p>
+                        <div class="publication-badges">
+                            <span class="badge">査読済み</span>
+                            <button class="btn-link">
+                                <i data-lucide="external-link"></i>
+                                詳細を見る
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-icon award">
+                        <i data-lucide="award"></i>
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">
+                            "Natural Language Processing for Social Media Analysis"
+                        </h3>
+                        <p class="publication-meta">T. Ishida, et al. ICML 2024 (Best Paper Award)</p>
+                        <div class="publication-badges">
+                            <span class="badge award-badge">受賞論文</span>
+                            <button class="btn-link">
+                                <i data-lucide="external-link"></i>
+                                詳細を見る
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <button class="btn btn-outline">全ての論文を見る</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="card-header">
+                        <h3 class="card-title">研究に関するお問い合わせ</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>共同研究や技術相談については、こちらからお気軽にご連絡ください。</p>
+                        <button class="btn btn-primary">メールを送る</button>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="card-header">
+                        <h3 class="card-title">所属・アクセス</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i data-lucide="map-pin"></i>
+                                <span>〒XXX-XXXX 東京都XXX区XXX</span>
+                            </div>
+                            <p>XX大学 XX学部 XX学科</p>
+                            <p>准教授</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Toshiki Ishida. All rights reserved.</p>
+                <p class="footer-updated">Last updated: January 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
